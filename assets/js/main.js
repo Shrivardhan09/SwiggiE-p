@@ -1,7 +1,7 @@
 const foodItems = [
     {
         id: 1,
-        image: '/assets/images/5.webp',
+        image: './assets/images/5.webp',
         restaurant: 'Junction 65',
         foodTypes: 'Chinese, North Indian, Biryani',
         foodRatingDeliveryTimePrice: {
@@ -13,7 +13,7 @@ const foodItems = [
     },
     {
         id: 2,
-        image: '/assets/images/5.1.webp',
+        image: './assets/images/5.1.webp',
         restaurant: 'Biryani House',
         foodTypes: 'Biryani, Chinese, Drinks',
         foodRatingDeliveryTimePrice: {
@@ -25,7 +25,7 @@ const foodItems = [
     },
     {
         id: 3,
-        image: '/assets/images/5.2.webp',
+        image: './assets/images/5.2.webp',
         restaurant: 'Shah House',
         foodTypes: 'Biryani',
         foodRatingDeliveryTimePrice: {
@@ -37,7 +37,7 @@ const foodItems = [
     },
     {
         id: 4,
-        image: '/assets/images/5.3.webp',
+        image: './assets/images/5.3.webp',
         restaurant: 'Armaani Kitchen',
         foodTypes: 'Biryani, Starters, Cocktails',
         foodRatingDeliveryTimePrice: {
@@ -48,7 +48,7 @@ const foodItems = [
     },
     {
         id: 5,
-        image: '/assets/images/5.4.webp',
+        image: './assets/images/5.4.webp',
         restaurant: 'Fried Kitchen',
         foodTypes: 'Non-veg',
         foodRatingDeliveryTimePrice: {
@@ -60,7 +60,7 @@ const foodItems = [
     },
     {
         id: 6,
-        image: '/assets/images/5.5.webp',
+        image: './assets/images/5.5.webp',
         restaurant: 'Armaani Kitchen',
         foodTypes: 'Biryani, Starters, Cocktails',
         foodRatingDeliveryTimePrice: {
@@ -73,7 +73,7 @@ const foodItems = [
     },
     {
         id: 7,
-        image: '/assets/images/5.6.webp',
+        image: './assets/images/5.6.webp',
         restaurant: 'Pizza Hut',
         foodTypes: 'Pizza, Burger, Shakes',
         foodRatingDeliveryTimePrice: {
@@ -85,7 +85,7 @@ const foodItems = [
     },
     {
         id: 8,
-        image: '/assets/images/5.7.webp',
+        image: './assets/images/5.7.webp',
         restaurant: 'VSS BreakFast Point',
         foodTypes: 'BreakFast',
         foodRatingDeliveryTimePrice: {
@@ -96,7 +96,7 @@ const foodItems = [
     },
     {
         id: 9,
-        image: '/assets/images/5.8.webp',
+        image: './assets/images/5.8.webp',
         restaurant: 'VSS Kitchen',
         foodTypes: 'Biryani, Starters, Cocktails',
         foodRatingDeliveryTimePrice: {
@@ -109,7 +109,7 @@ const foodItems = [
     },
     {
         id: 10,
-        image: '/assets/images/5.9.webp',
+        image: './assets/images/5.9.webp',
         restaurant: 'Wing Point',
         foodTypes: 'Chicken Wings, Pizza, Burger, Shakes',
         foodRatingDeliveryTimePrice: {
@@ -120,7 +120,7 @@ const foodItems = [
     },
     {
         id: 11,
-        image: '/assets/images/5.10.webp',
+        image: './assets/images/5.10.webp',
         restaurant: 'PVR Cinemas',
         foodTypes: 'Pizza, Burger, Shakes',
         foodRatingDeliveryTimePrice: {
@@ -132,7 +132,7 @@ const foodItems = [
     },
     {
         id: 12,
-        image: '/assets/images/5.11.webp',
+        image: './assets/images/5.11.webp',
         restaurant: 'SCOOPS',
         foodTypes: 'Bakery, Beverages, Ice Creams Parlour',
         foodRatingDeliveryTimePrice: {
@@ -144,7 +144,7 @@ const foodItems = [
     },
     {
         id: 13,
-        image: '/assets/images/5.12.webp',
+        image: './assets/images/5.12.webp',
         restaurant: 'Protein',
         foodTypes: 'Protein Items, Protein desserts',
         foodRatingDeliveryTimePrice: {
@@ -155,7 +155,7 @@ const foodItems = [
     },
     {
         id: 14,
-        image: '/assets/images/5.13.webp',
+        image: './assets/images/5.13.webp',
         restaurant: 'Hamsa Bakers',
         foodTypes: 'Bakery, Beverages, Cakes',
         foodRatingDeliveryTimePrice: {
@@ -166,7 +166,7 @@ const foodItems = [
     },
     {
         id: 15,
-        image: '/assets/images/5.14.webp',
+        image: './assets/images/5.14.webp',
         restaurant: 'Thick Shake Factory',
         foodTypes: 'Shakes',
         foodRatingDeliveryTimePrice: {
@@ -178,7 +178,7 @@ const foodItems = [
     },
     {
         id: 16,
-        image: '/assets/images/5.15.webp',
+        image: './assets/images/5.15.webp',
         restaurant: 'Donut House',
         foodTypes: 'Donuts, Desserts',
         foodRatingDeliveryTimePrice: {
@@ -189,7 +189,7 @@ const foodItems = [
     },
     {
         id: 17,
-        image: '/assets/images/5.16.webp',
+        image: './assets/images/5.16.webp',
         restaurant: 'Momo"s',
         foodTypes: 'Chinese, Momos',
         foodRatingDeliveryTimePrice: {
@@ -200,7 +200,7 @@ const foodItems = [
     },
     {
         id: 18,
-        image: '/assets/images/5.17.webp',
+        image: './assets/images/5.17.webp',
         restaurant: 'Kodi Kura Chitti Gaare',
         foodTypes: 'Biryani, Andhra, Chinese, South Indian',
         foodRatingDeliveryTimePrice: {
@@ -213,7 +213,7 @@ const foodItems = [
     },
     {
         id: 19,
-        image: '/assets/images/5.18.webp',
+        image: './assets/images/5.18.webp',
         restaurant: 'MC Donald"s',
         foodTypes: 'Burgers, Pizza, Cafe, Beverages.',
         foodRatingDeliveryTimePrice: {
@@ -225,7 +225,7 @@ const foodItems = [
     },
     {
         id: 20,
-        image: '/assets/images/5.19.jpeg',
+        image: './assets/images/5.19.jpeg',
         restaurant: 'Behrouz Biryani',
         foodTypes: 'Biryani, Mughlai, Lucknowi, Hu=yderabdi, kebabs, North Indian, Persian, Desserts',
         foodRatingDeliveryTimePrice: {
@@ -237,7 +237,7 @@ const foodItems = [
     },
     {
         id: 21,
-        image: '/assets/images/5.20.webp',
+        image: './assets/images/5.20.webp',
         restaurant: 'Naturals',
         foodTypes: 'Ice Creams, Desserts',
         foodRatingDeliveryTimePrice: {
