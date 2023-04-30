@@ -145,7 +145,7 @@ body {
 /* left */
 
 .items-header {
-  /* padding: 25px 0 0 0; */
+  padding: 25px 0 0 0;
   display: flex;
   justify-content: space-between;
   width: 1220px;
