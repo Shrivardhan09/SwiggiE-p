@@ -106,6 +106,9 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;   */
 }
 .card {
   height: 250px;
@@ -149,17 +152,16 @@ body {
   margin: 0 auto;
   max-width: 100%;
   font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
-  border-bottom: 1px solid #686b78;
-  /* flex: 1; */
+  border-bottom: 1px solid #bcc0d1;
 }
 .item-header-left {
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: center;
   flex: 3;
   font-weight: 600;
   font-size: 28px;
-  /* padding: 8px 0px; */
+  /* margin-top: 15px; */
 }
 
 /* right */
@@ -168,13 +170,16 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex: 6;
-  /* padding: 8px 0px; */
 }
 .nav-item-right {
   text-decoration: none;
   color: #686b78;
   padding-bottom: 16px;
+  margin-top: 16px;
   border-bottom: 1px solid transparent;
+}
+.relavance{
+  border-bottom: 1px solid #3d4152;
 }
 .nav-item-right:hover {
   border-bottom: 1px solid #3d4152;
@@ -187,6 +192,9 @@ body {
   align-items: center;
   text-decoration: none;
   color: #686b78;
+  padding-bottom: 16px;
+  border-bottom: 1px solid transparent;
+  margin-top: 16px;
 }
 .nav-item-right-filter:hover {
   border-bottom: 1px solid #3d4152;
@@ -208,7 +216,7 @@ body {
 }
 .food-item {
   width: 280px;
-  height: 370px;
+  height: auto;
   margin: 5px;
   background-color: rgb(255, 255, 255);
   border: 1px solid transparent;
@@ -277,6 +285,7 @@ body {
   visibility: hidden;
   border-top: 1px solid #e9e9eb;
   padding-top: 14px;
+  padding-bottom: 14px;
   margin-top: 14px;
   color: #5d8ed5;
   text-transform: uppercase;
@@ -289,6 +298,7 @@ body {
 .food-item:hover {
   box-shadow: 10px 15px 40px 5px rgb(40 44 63 / 15%);
   border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
 }
 .food-item:hover .visible {
   color: #5d8ed5;
