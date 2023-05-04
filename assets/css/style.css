@@ -106,7 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-    /* display: grid;
+  /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;   */
 }
@@ -178,7 +178,7 @@ body {
   margin-top: 16px;
   border-bottom: 1px solid transparent;
 }
-.relavance{
+.relavance {
   border-bottom: 1px solid #3d4152;
 }
 .nav-item-right:hover {
@@ -297,8 +297,8 @@ body {
 
 .food-item:hover {
   box-shadow: 10px 15px 40px 5px rgb(40 44 63 / 15%);
-  border: 1px solid transparent;
-  transition: 0.3s ease-in-out;
+  border: 1px solid rgba(211, 210, 210, 0.801);
+  transition: 0.3s ease;
 }
 .food-item:hover .visible {
   color: #5d8ed5;
@@ -307,4 +307,21 @@ body {
 .visible:hover {
   color: #3d4152;
   visibility: visible;
+}
+/* footer */
+.swiggie-footer {
+  background-color: black;
+  color: white;
+}
+.available-cities {
+  color: rgba(151, 148, 148, 0.816);
+}
+/* .cities-div {
+  height: 70vh;
+} */
+.cities-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  list-style: none;
 }

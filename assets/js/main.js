@@ -7,7 +7,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: ' 3.5 ☆',
             deliveryTime: '19 MINS',
-            price: '200 FOR TWO'
+            price: '₹200 FOR TWO'
         },
         discount: '30% off | Use JUMBO'
     },
@@ -19,7 +19,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: ' 2 ☆',
             deliveryTime: '25 MINS',
-            price: '150 FOR TWO'
+            price: '₹150 FOR TWO'
         },
         discount: '10% off | Use JUMBO'
     },
@@ -31,7 +31,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '5 ☆',
             deliveryTime: '10 MINS',
-            price: '350 FOR TWO'
+            price: '₹350 FOR TWO'
         },
         discount: '15% off | Use JUMBO'
     },
@@ -43,7 +43,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4 ☆ ',
             deliveryTime: '10 MINS',
-            price: '350 FOR TWO'
+            price: '₹350 FOR TWO'
         }
     },
     {
@@ -54,7 +54,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '3.6 ☆',
             deliveryTime: '10 MINS',
-            price: '350 FOR TWO'
+            price: '₹350 FOR TWO'
         },
         discount: '5% off | Use JUMBO'
     },
@@ -66,7 +66,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '2.6 ☆',
             deliveryTime: '10 MINS',
-            price: '350 FOR TWO'
+            price: '₹350 FOR TWO'
         },
         discount: '20% off | Use JUMBO'
 
@@ -79,7 +79,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.1 ☆ ',
             deliveryTime: '30 MINS',
-            price: '250 FOR TWO PIZZA'
+            price: '₹250 FOR TWO PIZZA'
         },
         discount: '20% off | Use PIZZAMANIA'
     },
@@ -91,7 +91,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4 ☆',
             deliveryTime: '10 MINS',
-            price: '50 per Plate'
+            price: '₹50 per Plate'
         }
     },
     {
@@ -102,7 +102,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '5 ☆',
             deliveryTime: '10 MINS',
-            price: '350 FOR TWO'
+            price: '₹350 FOR TWO'
         },
         discount: '10% off | Use COMBO'
 
@@ -115,7 +115,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.1 ☆ ',
             deliveryTime: '10 MINS',
-            price: '250 FOR TWO NUGGET'
+            price: '₹250 FOR TWO NUGGET'
         }
     },
     {
@@ -126,7 +126,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.1 ☆ ',
             deliveryTime: '30 MINS',
-            price: '250 FOR TWO PIZZA'
+            price: '₹250 FOR TWO PIZZA'
         },
         discount: '20% off | Use PVRMOVIE20'
     },
@@ -138,7 +138,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.1 ☆ ',
             deliveryTime: '30 MINS',
-            price: '250 FOR ONE SCOOP'
+            price: '₹250 FOR ONE SCOOP'
         },
         discount: '20% off | Use SCOOP20'
     },
@@ -150,7 +150,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.4 ☆ ',
             deliveryTime: '40 MINS',
-            price: '250 per Item'
+            price: '₹250 per Item'
         }
     },
     {
@@ -161,7 +161,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.4 ☆ ',
             deliveryTime: '40 MINS',
-            price: '150 per Item'
+            price: '₹150 per Item'
         }
     },
     {
@@ -172,7 +172,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.4 ☆ ',
             deliveryTime: '20 MINS',
-            price: '250 per Shake'
+            price: '₹250 per Shake'
         },
         discount: '15% OFF | Use THICKSHAKE15'
     },
@@ -184,7 +184,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.0 ☆ ',
             deliveryTime: '35 MINS',
-            price: '250 Box of 5 Donuts'
+            price: '₹250 Box of 5 Donuts'
         }
     },
     {
@@ -195,7 +195,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '3.0 ☆ ',
             deliveryTime: '35 MINS',
-            price: '250 FOR ONE'
+            price: '₹250 FOR ONE'
         }
     },
     {
@@ -206,7 +206,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '3.9 ☆ ',
             deliveryTime: '35 MINS',
-            price: '600 FOR TWO'
+            price: '₹600 FOR TWO'
         },
         discount: '40% OFF | Use TRYNEW'
 
@@ -219,7 +219,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '3.0 ☆ ',
             deliveryTime: '35 MINS',
-            price: '350 FOR TWO'
+            price: '₹350 FOR TWO'
         },
         discount: 'Get every item under 129'
     },
@@ -231,7 +231,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.8 ☆ ',
             deliveryTime: '45 MINS',
-            price: '500 FOR TWO'
+            price: '₹500 FOR TWO'
         },
         discount: '35% OFF | Use YUMYUM'
     },
@@ -243,7 +243,7 @@ const foodItems = [
         foodRatingDeliveryTimePrice: {
             rating: '4.8 ☆ ',
             deliveryTime: '45 MINS',
-            price: '150 FOR TWO'
+            price: '₹150 FOR TWO'
         },
         discount: '35% OFF | Use NATURALS'
     }
@@ -252,7 +252,7 @@ const foodItems = [
 const cardMainContainer = document.getElementById('card-main-container')
 
 for (let i = 0; i < foodItems.length; i++) {
-    const foodLen = foodItems[i];
+    const { id, image, restaurant, foodTypes, foodRatingDeliveryTimePrice, discount } = foodItems[i]
 
     const foodItemContainer = document.createElement('div')
     foodItemContainer.className = 'food-item'
@@ -262,44 +262,51 @@ for (let i = 0; i < foodItems.length; i++) {
 
     //everthing will be pushed into food description
     //img
+    const mobileViewFirstDiv = document.createElement('div')
+    mobileViewFirstDiv.className = 'first-div-mobile'
     const foodImage = document.createElement('div')
     foodImage.className = 'food-img'
     const imgTag = document.createElement('img')
-    imgTag.src = foodLen.image
+    imgTag.src = image
     //about food
     const aboutFoodItem = document.createElement('div')
     aboutFoodItem.className = 'about-food-item'
+
     const foodName = document.createElement('div')
     foodName.className = 'food-name'
     const stongRestroName = document.createElement('strong')
-    stongRestroName.textContent = foodLen.restaurant
-    const foodTypes = document.createElement('div')
-    foodTypes.className = 'food-types'
-    foodTypes.textContent = foodLen.foodTypes
+    stongRestroName.textContent = restaurant
+
+    const foodTypesDiv = document.createElement('div')
+    foodTypesDiv.className = 'food-types'
+    foodTypesDiv.textContent = foodTypes
     //foodrating
+    const mobileViewSecondDiv = document.createElement('div')
+    mobileViewSecondDiv.className = 'second-div-mobile'
+
     const foodRating = document.createElement('div')
     foodRating.className = 'food-rating'
     const rating = document.createElement('div')
     rating.className = 'rating'
     const ratingSpan = document.createElement('span')
-    ratingSpan.textContent = foodLen.foodRatingDeliveryTimePrice.rating
+    ratingSpan.textContent = foodRatingDeliveryTimePrice.rating
     const dotDiv1 = document.createElement('div')
     dotDiv1.className = 'space-dot'
     dotDiv1.textContent = '.'
     const arrivingTime = document.createElement('div')
     arrivingTime.className = 'arriving-time'
-    arrivingTime.textContent = foodLen.foodRatingDeliveryTimePrice.deliveryTime
+    arrivingTime.textContent = foodRatingDeliveryTimePrice.deliveryTime
     const dotDiv2 = document.createElement('div')
     dotDiv2.className = 'space-dot'
     dotDiv2.textContent = '.'
     const foodPrice = document.createElement('div')
     foodPrice.className = 'cost-of-item'
-    foodPrice.textContent = foodLen.foodRatingDeliveryTimePrice.price
+    foodPrice.textContent = foodRatingDeliveryTimePrice.price
     //discount
     const discountItem = document.createElement('div')
     discountItem.className = 'discount'
     const discountSpan = document.createElement('span')
-    discountSpan.textContent = foodLen.discount
+    discountSpan.textContent = discount
 
     //quick view Hover
     const quickViewHover = document.createElement('div')
@@ -309,26 +316,166 @@ for (let i = 0; i < foodItems.length; i++) {
     // append
     cardMainContainer.appendChild(foodItemContainer)
     foodItemContainer.appendChild(foodDescription)
-    foodDescription.appendChild(foodImage)
+    foodDescription.appendChild(mobileViewFirstDiv)
+    mobileViewFirstDiv.appendChild(foodImage)
     foodImage.appendChild(imgTag)
 
-    foodDescription.appendChild(aboutFoodItem)
+    foodDescription.appendChild(mobileViewSecondDiv)
+    mobileViewSecondDiv.appendChild(aboutFoodItem)
     aboutFoodItem.appendChild(foodName)
     foodName.appendChild(stongRestroName)
-    aboutFoodItem.appendChild(foodTypes)
+    aboutFoodItem.appendChild(foodTypesDiv)
 
-    foodDescription.appendChild(foodRating)
+    mobileViewSecondDiv.appendChild(foodRating)
     foodRating.appendChild(rating)
     rating.appendChild(ratingSpan)
-
     foodRating.appendChild(dotDiv1)
     foodRating.appendChild(arrivingTime)
     foodRating.appendChild(dotDiv2)
     foodRating.appendChild(foodPrice)
 
-    foodDescription.appendChild(discountItem)
+    mobileViewSecondDiv.appendChild(discountItem)
     discountItem.appendChild(discountSpan)
 
-
     foodItemContainer.appendChild(quickViewHover)
+}
+
+
+const cities =
+    [
+        "Abohar",
+        "Adilabad",
+        "Adityapur",
+        "Adoni",
+        "Agartala",
+        "Agra",
+        "Ahmedabad",
+        "Ahmednagar",
+        "Aizawl",
+        "Ajmer",
+        "Akola",
+        "Alappuzha",
+        "Aligarh",
+        "Alipurduar",
+        "Allahabad",
+        "Almora",
+        "Alwar",
+        "Ambajogai",
+        "Ambala",
+        "Ambikapur",
+        "Ambur",
+        "Amravati",
+        "Amreli",
+        "Amritsar",
+        "Anand",
+        "Anantapur",
+        "Ankleshwar",
+        "Arakkonam",
+        "Arambagh",
+        "Araria",
+        "Arrah",
+        "Asansol",
+        "Aurangabad",
+        "Aurangabadbihar",
+        "Azamgarh",
+        "Baddi",
+        "Bagalkot",
+        "Bagdogra",
+        "Bahadurgarh",
+        "Bahraich",
+        "Balaghat",
+        "Balangir",
+        "Balasore",
+        "Ballari",
+        "Ballia",
+        "Balrampur",
+        "Balurghat",
+        "Banda",
+        "Bangalore",
+        "Bankura",
+        "Bantwal",
+        "Baramati",
+        "Baran",
+        "Bardhaman",
+        "Bardoli",
+        "Bareilly",
+        "Barh",
+        "Baripada",
+        "Barmer",
+        "Barnala",
+        "Barshi",
+        "Basirhat",
+        "Basti",
+        "Batala",
+        "Bathinda",
+        "Beawar",
+        "Beed",
+        "Begusarai",
+        "Bela - Pratapgarh",
+        "Belgaum",
+        "Berhampore",
+        "Berhampur",
+        "Bettiah",
+        "Betul",
+        "Bhadohi",
+        "Bhadrachalam",
+        "Bhadrak",
+        "Bhadravati",
+        "Bhagalpur",
+        "Bhandara",
+        "Bharabanki",
+        "Bharatpur",
+        "Bharuch",
+        "Bhatkal",
+        "Bhavnagar",
+        "Bhawanipatna",
+        "Bhilai",
+        "Bhilwara",
+        "Bhimavaram",
+        "Bhind",
+        "Bhiwadi",
+        "Bhiwani",
+        "Bhopal",
+        "Bhubaneswar",
+        "Bhuj",
+        "Bhusawal",
+        "Bidar",
+        "Biharsharif",
+        "Bijapur",
+        "Bijnor",
+        "Bikaner",
+        "Bilaspur",
+        "Bilimora",
+        "Biswanath - Chariali",
+        "Bodhan - Rural",
+        "Bodinayakanur",
+        "Boisar",
+        "Bokaro",
+        "Bolpur",
+        "Bongaigaon",
+        "Bongaon",
+        "Budaun",
+        "Budhwal",
+        "Bulandshahr",
+        "Buldana",
+        "Bundi",
+        "Burhanpur",
+        "Buxar",
+    ]
+
+
+const citiesDiv = document.getElementById('cities-div')
+
+for (let i = 0; i < cities.length; i++) {
+    const citiesLen = cities[i]
+
+    const uListCities = document.createElement('ul')
+    uListCities.className = 'cities-list'
+    const liCityNames = document.createElement('li')
+    liCityNames.className = 'li-city-names'
+    liCityNames.textContent = citiesLen
+
+
+    citiesDiv.appendChild(uListCities)
+    uListCities.appendChild(liCityNames)
 }
