@@ -336,13 +336,6 @@ body {
 .available-cities {
   color: rgba(151, 148, 148, 0.816);
 }
-.cities-div {
-  /* height: 700px; */
-  /* width: 350px; */
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-flow: column; */
-}
 
 li.li-city-names {
   width: 354px;
