@@ -2,6 +2,7 @@
   body {
     width: 100%;
     box-sizing: border-box;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
   }
 
   .nav-bar {
@@ -13,10 +14,19 @@
 
   .left-bar {
     width: 100%;
+    margin-top: 10px;
+  }
+  .logo-s {
+    width: auto;
+  }
+
+  .address {
+    font-size: 15px;
   }
 
   .right-bar {
     width: 100%;
+    display: none;
   }
 
   .slider {
@@ -24,13 +34,25 @@
     height: auto;
     flex-direction: column;
     margin-top: 10px;
+    background-color: white;
   }
 
   .container {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    overflow-x: scroll;
   }
-
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  .card {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+  }
+  .card-img {
+    border-radius: 10px;
+  }
   .arrow {
     display: none;
   }
@@ -40,17 +62,40 @@
     flex-direction: column;
     width: 100%;
     /* padding: 0px 10px; */
+    display: none;
   }
 
   .item-header-left {
     padding-left: 11px;
+    display: none;
   }
 
   .item-header-right {
     width: 100%;
     font-size: 11px;
+    display: none;
+  }
+  .items-mobile-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  .all-restro-nearby {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+  }
+  .all-restro-text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .small-desc > p {
+    color: grey;
+    margin: 0;
   }
 
+  /*  */
   .food-item {
     width: 100%;
     padding: 0px 16px;
@@ -105,6 +150,53 @@
     display: none;
   }
   .visible {
+    display: none;
+  }
+
+  .see-all-restaurants {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .see-all-button {
+    padding: 20px 70px;
+    border-radius: 5px;
+    background-color: #db7c38;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 600;
+    display: block;
+  }
+  .end-mobile-view-pic {
+    display: flex;
+  }
+  .end-mobile-view-pic > img {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .mobile-footer-nav {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+  }
+  .f-nav-bar {
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid transparent;
+  }
+  .f-nav-bar:hover {
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 5px rgba(120, 118, 118, 0.501);
+    padding: 10px 0px;
+  }
+  .swiggie-footer {
     display: none;
   }
 }

@@ -113,6 +113,8 @@ body {
 .card {
   height: 250px;
   padding: 22px;
+  display: flex;
+  gap: 20px;
 }
 .card-img {
   width: 260px;
@@ -199,6 +201,11 @@ body {
 .nav-item-right-filter:hover {
   border-bottom: 1px solid #3d4152;
   color: #686b78;
+}
+
+/* mobile-nav-bar */
+.items-mobile-bar {
+  display: none;
 }
 
 /* food items */
@@ -308,6 +315,19 @@ body {
   color: #3d4152;
   visibility: visible;
 }
+/* mobile-nav hide */
+.see-all-restuarants {
+  display: none;
+}
+.see-all-button {
+  display: none;
+}
+.end-mobile-view-pic {
+  display: none;
+}
+.mobile-footer-nav {
+  display: none;
+}
 /* footer */
 .swiggie-footer {
   background-color: black;
@@ -316,12 +336,20 @@ body {
 .available-cities {
   color: rgba(151, 148, 148, 0.816);
 }
-/* .cities-div {
-  height: 70vh;
-} */
+.cities-div {
+  /* height: 700px; */
+  /* width: 350px; */
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-flow: column; */
+}
+
+li.li-city-names {
+  width: 354px;
+  height: 40px;
+}
 .cities-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
